@@ -11,5 +11,5 @@ def countwords(inputString):
 def countsmthg():
     return 5
 
-def countsmthgsecond():
-    return 10
+def countsmthgsecond(inputFirstNumber, inputSecondNumber):
+    return inputFirstNumber + inputSecondNumber
