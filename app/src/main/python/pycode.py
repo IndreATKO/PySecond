@@ -8,5 +8,8 @@ def countchars(inputString):
 def countwords(inputString):
     return len(re.findall(r'\w+', inputString))
 
+def countsmthg():
+    return 5
 
-
+def countsmthgsecond():
+    return 10

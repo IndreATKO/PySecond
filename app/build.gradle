@@ -19,8 +19,9 @@ android {
             abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
         }
         python {
-            pip {
-                install "matplotlib"
+            python {
+                buildPython "C:/path/to/python.exe"
+                buildPython "C:/path/to/py.exe", "-3.8"
             }
         }
     }
