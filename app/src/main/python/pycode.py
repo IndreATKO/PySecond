@@ -11,5 +11,12 @@ def countwords(inputString):
 def countsmthg():
     return 5
 
-def countsmthgsecond(inputFirstNumber, inputSecondNumber):
-    return inputFirstNumber + inputSecondNumber
+def countsmthgsecond(inputFirstNumber, inputSecondNumber, inputThirdNumber):
+    suma = inputFirstNumber + inputSecondNumber + inputThirdNumber
+    return suma
+
+def compound_interest(principle, rate, time):
+    # Calculates compound interest
+    Amount = principle * ((1 + rate / 100), time)
+    return Amount
+
