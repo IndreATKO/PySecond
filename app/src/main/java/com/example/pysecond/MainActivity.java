@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         this.py = Python.getInstance();
         this.module = this.py.getModule("pycode");
 
-        Integer charsCount = this.module.callAttr("compound_interest", 10000, 678, 456).toJava(Integer.class);
+        Integer charsCount = this.module.callAttr("countsmthgsecond", 10000, 678, 456).toJava(Integer.class);
         String countStringValue = String.valueOf(charsCount);
 
         Toast.makeText(this, countStringValue, Toast.LENGTH_LONG).show();
